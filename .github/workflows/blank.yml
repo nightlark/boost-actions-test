@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Get hostedtools
         run: |
-          ls C:/Program Files/Boost/
+          ls "C:/Program Files/Boost/"
