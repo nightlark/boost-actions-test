@@ -8,11 +8,11 @@ jobs:
     steps:
       - name: Get hostedtools
         run: |
-          ls C:/
-          ls C:/hostedtoolcache
-          ls C:/hostedtoolcache/windows
-          ls C:/hostedtoolcache/windows/Boost
-          ls C:/hostedtoolcache/windows/Boost/1.72
-          ls C:/hostedtoolcache/windows/Boost/1.72.0
-          ls C:/hostedtoolcache/windows/Boost/1.72/x64
-          ls C:/hostedtoolcache/windows/Boost/1.72.0/x64
+          ls /c/
+          ls /c/hostedtoolcache
+          ls /c/hostedtoolcache/windows
+          ls /c/hostedtoolcache/windows/Boost
+          ls /c/hostedtoolcache/windows/Boost/1.72
+          ls /c/hostedtoolcache/windows/Boost/1.72.0
+          ls /c/hostedtoolcache/windows/Boost/1.72/x64
+          ls /c/hostedtoolcache/windows/Boost/1.72.0/x64
